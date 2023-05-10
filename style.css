@@ -2,34 +2,61 @@
 *{
     font-family:'Roboto', Courier, monospace;
 }
-
+ /*Styles + color*/
 footer,header{
    background-color: #1F2937;
+   color: #f9faf8;
+}
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+li{list-style: none;}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero-container{
+    background-color: #1F2937;
+
+}
+.hero-title{
+    color: #F9FAF8;
+    font-size:48px;
+    font-weight:bolder; 
+}
+.hero-description{
+    color: #F9FAF8;
+    font-size:18px;
     
 }
 
+
+/*header style*/
 header{
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
 
-li{
-    list-style: none;
-    
-    
-}
-a{
-    text-decoration: none;
-    color: inherit;
-}
-.header-logo,.header-links{
-    color: #f9faf8;
-}
+
+
+
 .header-links{
     display: flex;
-    gap:15px; 
+    gap: 20px;px; 
     
 
 
 }
+/*hero style*/
+.hero-container{
+
+    display: flex;
+}
+
+
+
+
