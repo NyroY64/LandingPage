@@ -91,4 +91,36 @@ img{
     
 }
 
+/*Some Random Info*/
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.cards img{
+    width: 30%;
+    height: auto;
+}
+/*
+.card{
+    width: 16%;
+    height: auto;
+    
+
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+*/
+
 
